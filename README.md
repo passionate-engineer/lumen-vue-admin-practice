@@ -89,6 +89,8 @@ GET: /api/articles
 
 記事の詳細の取得を行う
 
+### Request URI
+
 GET: /api/articles/:id
 
 ### Request Parameters
@@ -127,6 +129,8 @@ id: 記事 ID
 ## 記事投稿
 
 記事の新規投稿を行う
+
+### Request URI
 
 POST: /api/articles
 
@@ -172,6 +176,8 @@ Accept: application/json
 ## 記事編集
 
 記事の編集を行う
+
+### Request URI
 
 PUT: /api/articles/:id
 
@@ -232,6 +238,8 @@ Accept: application/json
 ## 記事削除
 
 記事の削除を行う
+
+### Request URI
 
 DELETE: /api/articles/:id
 
