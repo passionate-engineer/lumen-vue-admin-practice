@@ -12,7 +12,7 @@ http://dms-vue-test.basement.jp
 - 新規投稿、一覧表示、編集、削除、プレビュー、公開確認が行える
 - API はすでに用意されており、適切なリクエストを行うことにより、記事を操作できる
 - 管理画面は Vue CLI を利用して開発する (ルータは Vue Router を使用する)
-- API は CrossOrigin が許可されているため、ローカルでの開発が可能である。PreFlight にも対応済み
+- API は CrossOrigin が許可されているため、ローカルでの開発が可能である。PreFlight にも対応済み
 
 ## 一覧画面
 
