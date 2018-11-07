@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "github-markdown-css": "^2.10.0",
     "marked": "^0.5.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"

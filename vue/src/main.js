@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import '../node_modules/github-markdown-css/github-markdown.css'
 
 Vue.config.productionTip = false
 
