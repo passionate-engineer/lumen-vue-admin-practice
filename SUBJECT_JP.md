@@ -42,7 +42,7 @@ http://dms-vue-test.basement.jp
 
 # API
 
-API URL: http://dms-vue-test.basement.jp/
+Endpoint: http://dms-vue-test.basement.jp/
 
 ## パラメータ
 
@@ -53,8 +53,8 @@ API URL: http://dms-vue-test.basement.jp/
 | title         | タイトル                                                   | 必須のため初期値なし |
 | html          | 本文(HTML も投稿可)                                        | 空文字               |
 | public_status | true の場合、public_uri にて記事を閲覧できるようになる     | false                |
-| preview_uri   | プレビューの URI、public_status が false でも閲覧できる    |
-| public_uri    | 公開ページの URI、public_status が true の時のみ閲覧できる |
+| preview_uri   | プレビューの URI、public_status が false でも閲覧できる    |                      |
+| public_uri    | 公開ページの URI、public_status が true の時のみ閲覧できる |                      |
 | created_at    | 記事の作成日時                                             | 現在日時             |
 | updated_at    | 記事の更新日時                                             | 現在日時             |
 
