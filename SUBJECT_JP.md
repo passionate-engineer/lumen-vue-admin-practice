@@ -1,6 +1,6 @@
 # 課題
 
-# 管理画面サンプル
+## 管理画面サンプル
 
 http://dms-vue-test.basement.jp
 
