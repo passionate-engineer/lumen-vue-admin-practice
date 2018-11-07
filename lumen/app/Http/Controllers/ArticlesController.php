@@ -165,8 +165,11 @@ class ArticlesController extends Controller
         return response('Not found.', 404, ['Content-Type' => 'text/html']);
       }
 
+      // HTML加工
+      $html = "<h1>{$article->title}</h1><p>{$article->date_time}</p><div>{$article->html}</div>";
+
       // 成功レスポンス(HTML)
-      return response($article->html, 200, ['Content-Type' => 'text/html']);
+      return response($html, 200, ['Content-Type' => 'text/html']);
     }
 
     public function public($id_hash)
@@ -177,7 +180,10 @@ class ArticlesController extends Controller
         return response('Not found.', 404, ['Content-Type' => 'text/html']);
       }
 
+      // HTML加工
+      $html = "<h1>{$article->title}</h1><p>{$article->date_time}</p><div>{$article->html}</div>";
+
       // 成功レスポンス(HTML)
-      return response($article->html, 200, ['Content-Type' => 'text/html']);
+      return response($html, 200, ['Content-Type' => 'text/html']);
     }
 }
