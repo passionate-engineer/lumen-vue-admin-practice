@@ -13,7 +13,7 @@
         <th>編集</th>
         <th>削除</th>
         <th>プレビュー</th>
-        <th>公開</th>
+        <th>公開ページ</th>
       </tr>
       <tr v-for="(article, articleKey) in articles" :key="articleKey">
         <td>{{article.id}}</td>
@@ -25,7 +25,7 @@
         <td><button @click="$router.push(`edit/${article.id}`)">編集</button></td>
         <td><button @click="deleteArticle(article.id, article.title)">削除</button></td>
         <td><a target="_blank" :href="article.preview_uri">プレビュー</a></td>
-        <td><a target="_blank" :href="article.public_uri">公開</a></td>
+        <td><a target="_blank" :href="article.public_uri">公開ページ</a></td>
       </tr>
     </table>
   </div>
