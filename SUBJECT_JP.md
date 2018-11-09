@@ -1,6 +1,7 @@
 # 課題
 
-- http://dms-vue-test.basement.jp と同じ管理画面を作成する
+http://dms-vue-test.basement.jp と同じ管理画面を作成する
+
 - Vue CLI を利用して開発する (ル一タは Vue Router を使用する)
 - Web API はすでに用意されており、適切なリクエストを行うことにより、記事を操作できる
 - Web API は CrossOrigin が許可されているため、ロ一カルでの開発が可能である。PreFlight にも対応済み
